@@ -1,7 +1,4 @@
-import { greetings } from './cli.js'
-import { showConditions, askQuestion, checkAnswer } from './even.js'
-
-export const game = () => {
+export const game = (greetings, showConditions, askQuestion, checkAnswer) => {
   const userName = greetings()
   showConditions()
   let i = 0
