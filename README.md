@@ -12,3 +12,4 @@
 brain-even game asciinema: https://asciinema.org/a/rX3vsNjSdkKNvSQuE7MRpjAwJ
 brain-calc game asciinema: https://asciinema.org/a/TE4FcJkvAsNc2ZWWtOupIXcPf
 brain-gcd game asciinema: https://asciinema.org/a/SJKCMd4Zn1UGQogfcO5ItgFLq
+brain-progression game asciinema: https://asciinema.org/a/opA5Yw549wXnALrZbpQ4zkIcq
