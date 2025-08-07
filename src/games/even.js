@@ -22,8 +22,12 @@ export const checkAnswer = (answer) => {
     console.log('Correct!')
     return true
   }
-  else {
-    console.log(`'${answer}' is wrong answer ;(. Correct answer was '${isEven}'.`)
+  else if (isEven === true && answer !== 'yes') {
+    console.log(`'${answer}' is wrong answer ;(. Correct answer was 'yes'.`)
+    return false
+  }
+  else if (isEven === false && answer !== 'no') {
+    console.log(`'${answer}' is wrong answer ;(. Correct answer was 'no'.`)
     return false
   }
 }
