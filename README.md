@@ -9,7 +9,12 @@
 [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=Athos627_frontend-project-44&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=Athos627_frontend-project-44)
 
 
-brain-even game asciinema: https://asciinema.org/a/rX3vsNjSdkKNvSQuE7MRpjAwJ
+brain-even game asciinema: https://asciinema.org/a/DNNI0iO7xvmbTUqHoDVmYttmI
+
 brain-calc game asciinema: https://asciinema.org/a/TE4FcJkvAsNc2ZWWtOupIXcPf
+
 brain-gcd game asciinema: https://asciinema.org/a/SJKCMd4Zn1UGQogfcO5ItgFLq
+
 brain-progression game asciinema: https://asciinema.org/a/opA5Yw549wXnALrZbpQ4zkIcq
+
+brain-prime game asciinema: https://asciinema.org/a/cQ7PjiKvtC6rlFlYlUStmerLy
