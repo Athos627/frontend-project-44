@@ -25,7 +25,7 @@ export const askQuestion = () => {
     }
     return result
   }
-  console.log(`Question: ${questionString(shownArr)}`)
+  console.log(`Question:${questionString(shownArr)}`)
   const answer = readlineSync.question('Your answer: ')
   return answer
 }
