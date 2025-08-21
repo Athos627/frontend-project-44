@@ -1,4 +1,6 @@
-export const game = (greetings, showConditions, askQuestion, checkAnswer) => {
+import { greetings } from './cli.js'
+
+export const game = (showConditions, askQuestion, checkAnswer) => {
   const userName = greetings()
   showConditions()
   let i = 0
