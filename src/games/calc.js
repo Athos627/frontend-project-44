@@ -1,4 +1,5 @@
 import readlineSync from 'readline-sync'
+import { getRandomNumber } from '../random-number.js'
 
 export const showConditions = () => {
   console.log('What is the result of the expression?')
@@ -7,15 +8,15 @@ export const showConditions = () => {
 let randomOperator
 const getRandomOperator = () => {
   const operators = ['+', '-', '*']
-  const randomIndex = Math.floor(Math.random() * operators.length)
+  const randomIndex = getRandomNumber(0, operators.length - 1)
   return operators[randomIndex]
 }
 
 let randomNumber1
 let randomNumber2
 export const askQuestion = () => {
-  randomNumber1 = Math.ceil(Math.random() * 100)
-  randomNumber2 = Math.ceil(Math.random() * 10)
+  randomNumber1 = getRandomNumber()
+  randomNumber2 = getRandomNumber(0, 10)
   randomOperator = getRandomOperator()
   console.log(`Question: ${randomNumber1} ${randomOperator} ${randomNumber2}`)
   const answer = readlineSync.question('Your answer: ')

@@ -1,4 +1,5 @@
 import readlineSync from 'readline-sync'
+import { getRandomNumber } from '../random-number.js'
 
 export const showConditions = () => {
   console.log('What number is missing in the progression?')
@@ -10,9 +11,9 @@ let index
 
 export const askQuestion = () => {
   const startArr = []
-  start = Math.ceil(Math.random() * 20)
-  step = Math.ceil(Math.random() * 10)
-  index = Math.floor(Math.random() * 11)
+  start = getRandomNumber(0, 20)
+  step = getRandomNumber(1, 10)
+  index = getRandomNumber(1, 10)
   for (let i = 0; i < step * 10; i += step) {
     startArr.push(start + i)
   }

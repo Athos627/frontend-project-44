@@ -1,4 +1,5 @@
 import readlineSync from 'readline-sync'
+import { getRandomNumber } from '../random-number.js'
 
 export const showConditions = () => {
   console.log('Answer "yes" if the number is even, otherwise answer "no".')
@@ -6,7 +7,7 @@ export const showConditions = () => {
 
 let randomNumber
 export const askQuestion = () => {
-  randomNumber = Math.ceil(Math.random() * 100)
+  randomNumber = getRandomNumber()
   console.log('Question: ' + randomNumber)
   const answer = readlineSync.question('Your answer: ')
   return answer
